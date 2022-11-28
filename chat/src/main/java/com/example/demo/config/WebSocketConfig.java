@@ -1,4 +1,4 @@
-package com.oraclejava.Config;
+package com.example.demo.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -6,7 +6,7 @@ import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
 
-import com.oraclejava.Handler.ChatHandler;
+import com.example.demo.handler.ChatHandler;
 
 @Configuration
 @EnableWebSocket

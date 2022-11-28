@@ -1,12 +1,12 @@
-package com.oraclejava.Service;
+package com.example.demo.service;
 
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.oraclejava.Entity.Member;
-import com.oraclejava.Repository.MemberRepository;
+import com.example.demo.entity.Member;
+import com.example.demo.repository.MemberRepository;
 
 @Service
 public class MemberSerivice {
